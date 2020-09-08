@@ -19,5 +19,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'writeexcel', '~> 1.0', '>= 1.0.3'
-  spec.add_runtime_dependency 'railties', '~> 5.2', '>= 5.2.0'
+  spec.add_runtime_dependency 'railties', '>= 5.2.0'
 end
